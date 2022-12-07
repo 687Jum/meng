@@ -1,0 +1,48 @@
+div {
+  animation-duration: 3s;
+  background: rgb(255, 255, 255);
+  animation-name: slidein;
+  background-color: #dfdfdf;
+  --hoverContorno: #959595;
+}
+@keyframes slidein {
+}
+
+/* a:hover   css鼠标悬停样式
+
+*/
+
+/* 层定位 */
+/*  position: fixed;固定定位，相对于窗口、（广告）
+position: relative;相对定位，相对于直接父元素
+position: absolute;绝对定位，相当于static定位外的第一个父元素（图片加文字）
+*/
+
+/* display: block;块元素，独占一行
+display: inline;行元素，不单独一行，互相之间有间隙<a>要考虑
+ text-decoration: none;无划线，可设置划线值这里是取消划线用于<a>
+*/
+
+/* text-align: center;图片和文字居中 
+font-size: 0;图片间默认间隙清零
+margin垂直反向上有合并，2个margin取大的
+左右margin值设为auto也是居中
+
+*/
+
+/* 盒子模型 */
+/* padding: 内边距;
+    border: 边框;
+    margin: 外边距; */
+/* margin-top: 上;
+    margin-bottom: 下;
+    margin-left: 左;
+    margin-right: ; 右*/
+/* border-width: ;边框粗细
+  border-style: ;样式，虚线实线等
+  border-color: ;颜色 
+  一般格式 border: 2px solid red*/
+
+/* overflow: auto;自行判断是否显示滚动条
+  overflow: hidden;超出不显示
+  overflow: scroll; 显示滚动条*/ ;
